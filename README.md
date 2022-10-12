@@ -1,1 +1,2 @@
-# thesilvercraft.github.io
+# SilverCraft  
+Check out the [Projects](Projects.md)
