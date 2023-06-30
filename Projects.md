@@ -7,7 +7,7 @@ If you already have scoop run
 If searching on [scoop.sh](https://scoop.sh) disable official buckets only  
 ### SilverAudioPlayer
 An extensible audio player.  
-2 maintained UIs, Avalonia (Windows 7+, and some linux support) and Winforms (Windows 7+)  
+Avalonia (Windows 7+, and linux support)  
 `scoop install silveraudioplayer`
 [https://github.com/thesilvercraft/SilverAudioPlayer](https://github.com/thesilvercraft/SilverAudioPlayer)
 ![SilverAudioPlayer Social card](https://repository-images.githubusercontent.com/471147219/f5512c9e-1b37-4fdd-9c1a-a4d5957ef462)
