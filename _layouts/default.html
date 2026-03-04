@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: "en" }}">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ site.title }}</title>
+    <meta name="description" content="{{ site.description }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="{{ site.author }}">
+    <link rel="canonical" href="{{ site.url }}">
+    
+    <meta property="og:title" content="{{ site.title }}">
+    <meta property="og:description" content="{{ site.description }}">
+    <meta property="og:type" content="website">
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "{{ site.title }}",
+        "url": "{{ site.url }}",
+        "sameAs": {{ site.social_links | jsonify }},
+        "description": "{{ site.description }}"
+      }
+    </script>
+    <style>
+      html { color-scheme: light dark; }
+      li { display: block; margin-bottom: 10px; }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>{{ site.title }}</h1>
+      <p>{{ site.description }}</p>
+    </header>
+
+    {{ content }}
+
+    <footer>
+      <hr>
+      <p>This page is open-source, <a href="{{ site.repository }}">improve it</a></p>
+    </footer>
+  </body>
+</html>

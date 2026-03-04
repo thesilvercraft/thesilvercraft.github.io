@@ -1,0 +1,12 @@
+title: SilverCraft
+description: >-
+  SilverCraft is home to open source projects like SilverAudioPlayer, Smasstrans, 
+  SImgcompress, STable, and more.
+author: SilverDiamond
+url: "https://thesilvercraft.github.io"
+repository: https://github.com/thesilvercraft/thesilvercraft.github.io
+
+# Custom data for the JSON-LD
+social_links:
+  - https://gitlab.com/silvercraft
+  - https://github.com/thesilvercraft

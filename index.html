@@ -1,0 +1,52 @@
+---
+layout: default
+---
+
+<main>
+  <section aria-labelledby="projects">
+    <h2 id="projects">Featured Projects</h2>
+    <ul>
+      {% for project in site.data.projects.featured %}
+      <li>
+        <img src="{{ project.logo }}" alt="{{ project.name }} logo" width="64" height="64" 
+             {% if project.pixelated %}style="image-rendering: pixelated;"{% endif %}>
+        <a href="{{ project.url }}">{{ project.name }}</a>
+        <small>{{ project.desc }} {% if project.anchor %}<a href="{{ project.anchor }}">More info below</a>{% endif %}</small>
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+
+  <section aria-labelledby="more-projects">
+    <h2 id="more-projects">More SilverCraft Projects</h2>
+    <ul>
+      {% for project in site.data.projects.others %}
+      <li>
+        <a href="{{ project.url }}">{{ project.name }}</a>
+        <small>{{ project.desc }}</small>
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+</main>
+
+<hr>
+
+<section id="SilverAudioPlayer">
+  <h2>SilverAudioPlayer: Modular Music Player</h2>
+  <img src="sap-textblur.svg" style="width: 100%;" alt="SilverAudioPlayer banner">
+  <p>SilverAudioPlayer is a .NET-based, modular music player with many components:</p>
+  <ul>
+    <li><strong>Catenoid</strong> – Avalonia UI</li>
+    <li><strong>SilverAudioPlayer.Console</strong> – Terminal UI</li>
+    </ul>
+  <p>Learn more at <a href="https://gitlab.com/silvercraft/SilverAudioPlayer">GitLab</a></p>
+</section>
+
+<hr>
+
+<section id="Smasstrans">
+  <h2>Smasstrans: Public transport tracking app</h2>
+  <img src="smastrans.svg" alt="Smasstrans logo" width="200" height="200">
+  <p>Smasstrans is a cross platform (Linux/Android) app to track JSP busses</p>
+</section>

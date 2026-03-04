@@ -1,0 +1,24 @@
+featured:
+  - name: SilverAudioPlayer
+    url: "https://gitlab.com/silvercraft/SilverAudioPlayer"
+    logo: "sap.svg"
+    desc: "A modular, hackable C# music player for Linux and Windows."
+    anchor: "#SilverAudioPlayer"
+  - name: Smasstrans
+    url: "https://gitlab.com/silvercraft/smasstrans"
+    logo: "smastrans.svg"
+    desc: "Tracks JSP (public Skopje transport) buses for Android, Linux, and Windows."
+    anchor: "#Smasstrans"
+  - name: SImgcompress
+    url: "https://gitlab.com/silvercraft/simgcompress"
+    logo: "simgcompress.png"
+    pixelated: true
+    desc: 'Archive of the CMPC pixels project. View it on the web at <a href="https://spixelsarchive.pages.dev/">spixelsarchive.pages.dev</a>'
+
+others:
+  - name: SilverFanControl
+    url: "https://gitlab.com/silvercraft/silverfanctl"
+    desc: "RGB & Fan control for 0CF2:A100 FAN-SL-v1.8 (Linux/Windows)"
+  - name: SilverConfig
+    url: "https://gitlab.com/silvercraft/SilverConfig"
+    desc: "SilverCraft configuration library"
