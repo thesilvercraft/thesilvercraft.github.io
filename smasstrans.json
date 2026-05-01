@@ -1,0 +1,4 @@
+{
+  "OSMTileServer":"https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+  "RouteGeometry":"https://thesilvercraft.github.io/smasstransRouteGeometry.json"
+}
