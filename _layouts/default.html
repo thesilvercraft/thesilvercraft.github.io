@@ -19,7 +19,12 @@
         "name": "{{ site.title }}",
         "url": "{{ site.url }}",
         "sameAs": {{ site.social_links | jsonify }},
-        "description": "{{ site.description }}"
+        "description": "{{ site.description }}"{% if site.author %},
+        "author": {
+          "@type": "Person",
+          "name": "{{ site.author }}"{% if site.author_url %},
+          "url": "{{ site.author_url }}"{% endif %}
+        }{% endif %}
       }
     </script>
     <style>
