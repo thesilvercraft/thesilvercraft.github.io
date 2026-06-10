@@ -42,7 +42,18 @@
 
     <footer>
       <hr>
-      <p>This page is open-source, <a href="{{ site.repository }}">improve it</a></p>
+      <p>
+        This page is open-source, <a href="{{ site.repository }}">improve it</a>
+        {% if site.author %}
+          Created by: 
+          {% if site.author_url %}
+            <a href="{{ site.author_url }}" target="_blank">{{ site.author }}</a>
+          {% else %}
+            {{ site.author }}
+          {% endif %}
+        {% endif %}
+      </p>
+      
     </footer>
   </body>
 </html>
