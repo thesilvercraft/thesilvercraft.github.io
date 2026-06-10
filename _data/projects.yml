@@ -4,6 +4,10 @@ featured:
     logo: "sap.svg"
     desc: "A modular, hackable C# music player for Linux and Windows."
     anchor: "#SilverAudioPlayer"
+  - name: SilverCraft.CSCore
+    url: "https://github.com/thesilvercraft/cscore"
+    logo: "cscore-square-notext.svg"
+    desc: "A CSCore fork that powers SilverAudioPlayer"
   - name: Smasstrans
     url: "https://gitlab.com/silvercraft/smasstrans"
     logo: "smastrans.svg"
